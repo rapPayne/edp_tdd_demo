@@ -18,4 +18,10 @@ describe('Roman numberal convertor', () => {
     // ASSERT
     expect(actual).toBe(expected)
   })
+
+  test("return 4 given IV", () => {
+    const expected = 4;
+    const actual = romanToArabic("IV")
+    expect(actual).toBe(expected)
+  })
 });
