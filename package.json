@@ -4,7 +4,7 @@
     "jest": "^30.0.3"
   },
   "scripts": {
-    "test": "node --experimental-vm-modules node_modules/.bin/jest"
+    "test": "node --experimental-vm-modules ./node_modules/jest/bin/jest"
   },
   "jest": {}
 }
